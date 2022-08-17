@@ -1,38 +1,261 @@
-.App {
-  text-align: center;
+/* imported fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+/* end of imported fonts */
+
+* {
+  box-sizing: 0;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", Courier, monospace;
+  /* border: black 2px solid; */
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header and Footer Shared Styling */
+
+.header,
+.footer {
+  font-weight: 600;
+  /* padding: 10px; */
+  height: 2.5rem;
+  color: white;
+  background-image: linear-gradient(to right, rgb(25, 25, 32), rgb(74, 74, 74));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header */
+.header {
   display: flex;
-  flex-direction: column;
+  font-size: calc(10px + 2vw);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  letter-spacing: 3px;
+}
+
+.logo {
+  font-size: calc(10px + 0.5vw);
+  margin-left: 5px;
+  height: 20px;
+}
+.logo-subtitle {
+  margin-left: 20px;
+  font-size: calc(5px + 0.5vw);
+  color: blueviolet;
+}
+
+.loginText {
+  font-size: 8px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.login-image {
+  right: 130px;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.mainContainer {
+  display: flex;
+
+  max-width: 1000px;
+
+  background-image: linear-gradient(rgb(225, 225, 225), white);
+}
+
+img {
+  width: calc(90px + 3vw);
+  height: calc(50px + 3vw);
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: calc(10px + 1vw);
+}
+
+.wfh {
+  z-index: 1;
+  color: blueviolet;
+  background-image: linear-gradient(to left, white, aliceblue);
+
+  border-radius: 5px;
+  text-align-last: center;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+/* Font Awesome Bars Icon */
+.barsIcon {
+  padding: 10px;
+  font-size: calc(10px + 2vw);
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.barsIcon:hover {
+  color: rgb(186, 187, 220);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* This is the list of employees area */
+
+#flex {
+  margin: 1px;
+  display: flex;
+}
+
+.vacationDays {
+  font-weight: 600;
+  margin: 0px 10px;
+}
+
+.infoBox {
+  position: absolute;
+  /* width: 100%; */
+}
+
+.infoText {
+  margin: auto;
+  /* margin-left: 4px; */
+  margin-right: 4px;
+  padding: 2px 0px;
+}
+
+.infoPositionText {
+  font-size: 8px;
+  color: slategrey;
+  margin-bottom: 13px;
+}
+
+/* This is the main container for listofnames-eachbox */
+.listOfNames {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Employee Names */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.listOfNames-eachBox {
+  text-align-last: left;
+  border: 0px rgba(211, 211, 211, 0.138) solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.01s !important;
+  overflow: hidden;
+}
+.listOfNames-eachBox:hover {
+  background-image: linear-gradient(
+    to right,
+    aliceblue,
+    rgba(255, 255, 255, 0.645)
+  );
+  transform: scale(1.01);
+}
+
+p,
+#flex {
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 4px;
+  font-size: calc(9px + 0.51vw);
+}
+.info {
+  padding: 20px;
+  border-left: 1px solid #607d8b;
+}
+#wfhBtn {
+  position: absolute;
+  left: calc(199px + 10vw);
+
+  top: 55px;
+  color: red;
+  padding: 3px 6px;
+  margin: 5px;
+  font-size: 9px;
+  border-radius: 9px;
+  border: 1px solid black;
+  font-weight: 600;
+  align-content: center;
+  color: white;
+  background-color: #404040;
+}
+
+button {
+  /* position: absolute; */
+  padding: 3px 6px;
+  margin: 5px;
+  font-size: 9px;
+  border-radius: 9px;
+  border: 1px solid black;
+  font-weight: 600;
+  align-content: center;
+  color: white;
+  background-color: #404040;
+  left: 10px;
+}
+button:hover,
+#wfhBtn:hover {
+  background-color: #303030;
+
+  color: white;
+}
+button:active,
+#wfhBtn:active {
+  background-color: #404040;
+  color: lightgreen;
+  border: 1px solid lightgreen;
+}
+
+.alert {
+  z-index: 100;
+  position: absolute;
+  padding: 10px;
+  margin: 0px 40px;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+  top: 20px;
+  transition: 0.5s;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  overflow: hidden;
+  margin: 1px;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/* Footer Starts Here */
+.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align-last: center;
+  font-size: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
 }
