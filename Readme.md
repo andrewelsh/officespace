@@ -1,6 +1,6 @@
 # OFFICE SPACE
 
-## Quick. Easy. Simple
+### Quick. Easy. Simple
 
 #### Simple and effective tool to monitor and manage your office team.
 
