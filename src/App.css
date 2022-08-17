@@ -64,8 +64,8 @@
 }
 
 img {
-  width: calc(90px + 3vw);
-  height: calc(50px + 3vw);
+  width: calc(120px + 3vw);
+  height: calc(90px + 3vw);
   border-radius: 5px;
 }
 
