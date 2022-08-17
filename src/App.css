@@ -25,25 +25,25 @@
 /* Header */
 .header {
   display: flex;
-  font-size: calc(10px + 2vw);
+  font-size: calc(15px + 2vw);
   align-items: center;
   justify-content: space-between;
   letter-spacing: 3px;
 }
 
 .logo {
-  font-size: calc(10px + 0.5vw);
+  font-size: calc(15px + 0.5vw);
   margin-left: 5px;
   height: 20px;
 }
 .logo-subtitle {
   margin-left: 20px;
-  font-size: calc(5px + 0.5vw);
+  font-size: calc(10px + 0.5vw);
   color: blueviolet;
 }
 
 .loginText {
-  font-size: 8px;
+  font-size: 13px;
   margin-right: 60px;
   cursor: pointer;
 }
@@ -70,7 +70,7 @@ img {
 }
 
 h3 {
-  font-size: calc(10px + 1vw);
+  font-size: calc(15px + 1vw);
 }
 
 .wfh {
@@ -81,13 +81,13 @@ h3 {
   border-radius: 5px;
   text-align-last: center;
 
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
 }
 /* Font Awesome Bars Icon */
 .barsIcon {
   padding: 10px;
-  font-size: calc(10px + 2vw);
+  font-size: calc(15px + 2vw);
   position: absolute;
   right: 0;
   top: 0;
@@ -123,7 +123,7 @@ h3 {
 }
 
 .infoPositionText {
-  font-size: 8px;
+  font-size: 13px;
   color: slategrey;
   margin-bottom: 13px;
 }
@@ -169,7 +169,7 @@ p,
   margin: auto;
   margin-left: 0px;
   margin-right: 4px;
-  font-size: calc(9px + 0.51vw);
+  font-size: calc(14px + 0.51vw);
 }
 .info {
   padding: 20px;
@@ -183,7 +183,7 @@ p,
   color: red;
   padding: 3px 6px;
   margin: 5px;
-  font-size: 9px;
+  font-size: 14px;
   border-radius: 9px;
   border: 1px solid black;
   font-weight: 600;
@@ -196,7 +196,7 @@ button {
   /* position: absolute; */
   padding: 3px 6px;
   margin: 5px;
-  font-size: 9px;
+  font-size: 14px;
   border-radius: 9px;
   border: 1px solid black;
   font-weight: 600;
@@ -235,7 +235,7 @@ button:active,
   color: white;
   font-weight: bold;
   float: right;
-  font-size: 22px;
+  font-size: 27px;
   line-height: 20px;
   cursor: pointer;
   transition: 0.3s;
@@ -253,7 +253,7 @@ button:active,
   right: 0;
   bottom: 0;
   text-align-last: center;
-  font-size: 10px;
+  font-size: 15px;
   position: fixed;
   bottom: 0;
   width: 100%;
