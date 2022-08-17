@@ -85,13 +85,13 @@ h3 {
 }
 /* Font Awesome Bars Icon */
 .barsIcon {
-  padding: 10px;
-  font-size: calc(15px + 2vw);
-  position: absolute;
-  right: 0;
-  top: 0;
+  color: #fff;
   cursor: pointer;
-  color: white;
+  font-size: calc(20px + 1vw);
+  padding: 10px;
+  position: absolute;
+  right: 15px;
+  top: 4px;
 }
 .barsIcon:hover {
   color: rgb(186, 187, 220);
@@ -175,8 +175,9 @@ p,
   border-left: 1px solid #607d8b;
 }
 #wfhBtn {
+  color: red;
+  left: calc(381px + 10vw);
   position: absolute;
-  left: calc(351px + 10vw);
   top: 116px;
   color: red;
   padding: 3px 6px;
@@ -217,15 +218,16 @@ button:active,
 }
 
 .alert {
-  z-index: 100;
-  position: absolute;
-  padding: 10px;
-  margin: 0px 40px;
-  border-radius: 5px;
   background-color: #f44336;
-  color: white;
-  top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 40px;
+  padding: 10px;
+  position: absolute;
+  top: 218px;
   transition: 0.5s;
+  z-index: 100;
+  font-size: calc(9px + 1.5vw);
 }
 
 .closebtn {
