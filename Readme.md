@@ -1,10 +1,12 @@
-# Office Space
+# OFFICE SPACE
 
-### Simple and effective tool to monitor and manage your office team.
+## Quick. Easy. Simple
 
-### Track vacations days, working from home status, and a variety of other customizable buttons for your team's needs.
+#### Simple and effective tool to monitor and manage your office team.
 
-### Tools used to create this project
+#### Track vacations days, working from home status, and a variety of other customizable buttons for your team's needs.
+
+#### Tools used to create this project
 
 1. HTML / CSS / JS
 2. React JS
