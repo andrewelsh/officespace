@@ -174,7 +174,11 @@ p,
   padding: 60px;
   border-left: 1px solid #607d8b;
 }
-#wfhBtn {
+#wfhBtn,
+#wfhBtn2,
+#wfhBtn3,
+#wfhBtn4 {
+  text-transform: uppercase;
   color: red;
   left: calc(381px + 10vw);
   position: absolute;
@@ -189,6 +193,15 @@ p,
   align-content: center;
   color: white;
   background-color: #404040;
+}
+#wfhBtn2 {
+  top: 160px;
+}
+#wfhBtn3 {
+  top: 200px;
+}
+#wfhBtn4 {
+  top: 240px;
 }
 
 button {
@@ -205,13 +218,19 @@ button {
   left: 10px;
 }
 button:hover,
-#wfhBtn:hover {
+#wfhBtn:hover,
+#wfhBtn2:hover,
+#wfhBtn3:hover,
+#wfhBtn4:hover {
   background-color: #303030;
 
   color: white;
 }
 button:active,
-#wfhBtn:active {
+#wfhBtn:active,
+#wfhBtn2:active,
+#wfhBtn3:active,
+#wfhBtn4:active {
   background-color: #404040;
   color: lightgreen;
   border: 1px solid lightgreen;

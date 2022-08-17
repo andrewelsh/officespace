@@ -73,6 +73,9 @@ const App = () => {
           onClick={() => handleWfh(passWfhProps)}
           value="Work From Home"
         />
+        <input id="wfhBtn2" type="button" value="Request Vaction" />
+        <input id="wfhBtn3" type="button" value="Submit Suggestion" />
+        <input id="wfhBtn4" type="button" value="Request Sit-Down" />
       </div>
       <button id="btn" onClick={addUser}>
         + Add New User
