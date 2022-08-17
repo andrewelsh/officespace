@@ -205,7 +205,7 @@ p,
 }
 
 button {
-  /* position: absolute; */
+  position: absolute;
   padding: 3px 6px;
   margin: 5px;
   font-size: 14px;
@@ -215,7 +215,7 @@ button {
   align-content: center;
   color: white;
   background-color: #404040;
-  left: 10px;
+  left: 32px;
 }
 button:hover,
 #wfhBtn:hover,
