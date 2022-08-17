@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/officespace/static/css/main.cbd313be.css",
+    "main.css": "/officespace/static/css/main.71afc8ca.css",
     "main.js": "/officespace/static/js/main.1877460d.js",
     "index.html": "/officespace/index.html",
-    "main.cbd313be.css.map": "/officespace/static/css/main.cbd313be.css.map",
+    "main.71afc8ca.css.map": "/officespace/static/css/main.71afc8ca.css.map",
     "main.1877460d.js.map": "/officespace/static/js/main.1877460d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbd313be.css",
+    "static/css/main.71afc8ca.css",
     "static/js/main.1877460d.js"
   ]
 }
