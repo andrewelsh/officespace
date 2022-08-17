@@ -48,7 +48,7 @@
 }
 
 .login-image {
-  right: 150px;
+  right: calc(150px + 1vw);
   border-radius: 100%;
   width: 20px;
   height: 20px;
@@ -63,8 +63,8 @@
 }
 
 img {
-  width: calc(120px + 3vw);
-  height: calc(90px + 3vw);
+  height: calc(100px + 3vw);
+  width: calc(150px + 3vw);
   border-radius: 5px;
 }
 
@@ -176,9 +176,8 @@ p,
 }
 #wfhBtn {
   position: absolute;
-  left: calc(285px + 10vw);
-
-  top: 55px;
+  left: calc(351px + 10vw);
+  top: 116px;
   color: red;
   padding: 3px 6px;
   margin: 5px;
